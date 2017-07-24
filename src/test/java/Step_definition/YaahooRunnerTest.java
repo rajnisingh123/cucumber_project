@@ -6,7 +6,7 @@ import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features="src/test/java/Step_definition/logIn.feature" , glue={"Step_definition"},
+@CucumberOptions(features="src/test/java/Step_definition/logIn.feature" ,
 			plugin={"html:target/cucumber-html-report"})
 
 public class YaahooRunnerTest {
